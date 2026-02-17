@@ -2,4 +2,4 @@ name: RegrowthEntityVariants
 version: ${project.version}
 main: org.lushplugins.regrowthentityvariants.RegrowthEntityVariants
 api-version: '1.21'
-github-repo: ProjectOwner/RegrowthEntityVariants
+github-repo: RegrowthMC/RegrowthEntityVariants
