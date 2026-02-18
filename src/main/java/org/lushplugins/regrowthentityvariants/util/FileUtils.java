@@ -59,8 +59,6 @@ public class FileUtils {
                 }
                 out.close();
                 in.close();
-            } else {
-                context.getLogger().warn(Component.text("Could not save " + outFile.getName() + " to " + outFile + " because " + outFile.getName() + " already exists."));
             }
         } catch (IOException ex) {
             context.getLogger().error(Component.text("Could not save " + outFile.getName() + " to " + outFile), ex);
