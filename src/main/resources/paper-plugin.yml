@@ -1,0 +1,6 @@
+name: RegrowthEntityVariants
+version: ${project.version}
+main: org.lushplugins.regrowthentityvariants.RegrowthEntityVariantsPlugin
+api-version: '1.21'
+bootstrapper: org.lushplugins.regrowthentityvariants.RegrowthEntityVariantsBootstrapper
+github-repo: RegrowthMC/RegrowthEntityVariants
