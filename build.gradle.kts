@@ -42,12 +42,12 @@ tasks {
     }
 
     processResources{
-        filesMatching("plugin.yml") {
+        filesMatching("paper-plugin.yml") {
             expand(project.properties)
         }
 
         inputs.property("version", rootProject.version)
-        filesMatching("plugin.yml") {
+        filesMatching("paper-plugin.yml") {
             expand("version" to rootProject.version)
         }
     }

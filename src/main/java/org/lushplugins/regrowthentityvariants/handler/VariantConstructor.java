@@ -48,8 +48,8 @@ public class VariantConstructor {
             registryEvent,
             entityType,
             variant -> keyConstructor.apply(Key.key("%s:%s".formatted(config.getDefaultNamespace(), variant))),
-            variant -> builder.apply(ClientTextureAsset.clientTextureAsset(Key.key("%s:entity/%s/%s"
-                .formatted(config.getDefaultNamespace(), entityType, variant))))
+            variant -> builder.apply(ClientTextureAsset.clientTextureAsset(Key.key("minecraft:entity/%s/%s"
+                .formatted(entityType, variant))))
         );
     }
 }
